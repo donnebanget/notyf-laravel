@@ -1,0 +1,32 @@
+<?php
+
+/*
+ * This file is part of the PHPFlasher package.
+ * (c) Younes KHOUBZA <younes.khoubza@gmail.com>
+ */
+
+return array(
+    'scripts' => array(
+        'cdn' => array(
+            'https://cdn.jsdelivr.net/npm/@flasher/flasher-notyf@1.3.1/dist/flasher-notyf.min.js',
+        ),
+        'local' => array(
+            '/vendor/flasher/flasher-notyf.min.js',
+        ),
+    ),
+    'styles' => array(
+        'cdn' => array(
+            'https://cdn.jsdelivr.net/npm/@flasher/flasher-notyf@1.3.1/dist/flasher-notyf.min.css',
+        ),
+        'local' => array(
+            '/vendor/flasher/flasher-notyf.min.css',
+        ),
+    ),
+    'options' => [
+        'duration' => 3000,
+        'position' => [
+            'x' => 'right',
+            'y' => 'top',
+        ],
+    ],
+);
